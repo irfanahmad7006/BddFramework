@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: testrunners.UberTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.939 s <<< FAILURE! - in testrunners.UberTest
+Booking a sedan cab(Uber Booking Feature)  Time elapsed: 0.185 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'User check the trip details' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("User check the trip details")
+public void user_check_the_trip_details() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
